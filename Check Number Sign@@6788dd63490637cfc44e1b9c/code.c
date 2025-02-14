@@ -5,7 +5,8 @@ int main(){
         printf("Positive");
     }else if(a<0){
         printf("Negative");
-    }else(a==0)
+    }else(a==0){
         printf("Zero");
+    }
     }
     
