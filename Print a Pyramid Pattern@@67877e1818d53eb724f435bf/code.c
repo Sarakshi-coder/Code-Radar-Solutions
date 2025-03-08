@@ -22,7 +22,6 @@ int main() {
     int n;
 
     // Input number of rows
-    printf("Enter the number of rows: ");
     scanf("%d", &n);
 
     // Call function to print the pyramid pattern
