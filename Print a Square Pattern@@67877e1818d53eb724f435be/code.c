@@ -14,9 +14,6 @@ void printSquare(int n) {
 
 int main() {
     int n;
-
-    // Input the side length of the square
-    printf("Enter the side length of the square: ");
     scanf("%d", &n);
 
     // Call the function to print the square pattern
