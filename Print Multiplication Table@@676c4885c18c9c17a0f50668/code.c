@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &N);  // Read the input number
 
     for (int i = 1; i <= 10; i++) {
-        printf("%d X %d = %d\n", N, i, N * i);  // Print multiplication result
+        printf("%d x %d = %d\n", N, i, N * i);  // Print multiplication result
     }
 
 }
