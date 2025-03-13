@@ -1,23 +1,13 @@
 #include <stdio.h>
 
-void printSquare(int n) {
-    // Outer loop for the number of rows
-    for (int i = 0; i < n; i++) {
-        // Inner loop for printing stars in each column
-        for (int j = 0; j < n; j++) {
-            printf("*");
-        }
-        // Print a new line after each row
-        printf("\n");
-    }
-}
 
 int main() {
-    int n;
-    scanf("%d", &n);
-
-    // Call the function to print the square pattern
-    printSquare(n);
+    int N;
+    scanf("%d", &N);
+    for(int i=1;i<=N;i++){
+        printf("*");
+        printf("\n");
+    }
 
     return 0;
 }
