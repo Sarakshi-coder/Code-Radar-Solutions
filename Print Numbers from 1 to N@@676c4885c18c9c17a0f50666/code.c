@@ -9,6 +9,7 @@ int main() {
         
         if (i < N) {  // Avoid space after the last number
             printf(" ");
+            printf("\n");
         }
     }
 }
