@@ -16,6 +16,6 @@ int main() {
             break;
         case '/': 
             if (num2 != 0)
-                printf("%d\n",num1/)
+                printf("%d\n",num1);
     }
 }
