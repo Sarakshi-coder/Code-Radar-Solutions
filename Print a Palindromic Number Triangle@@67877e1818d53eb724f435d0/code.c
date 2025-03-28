@@ -6,15 +6,15 @@ int main() {
 
     for (i = 1; i <= N; i++) {
         for (j = 1; j <= N - i; j++) {
-            printf(""); 
+            printf(" "); 
         }
         num = i;
         for (k = 1; k <= i; k++) {
-            printf("%d ", k); 
+            printf("%d", k); 
         }
         num = i - 1;
         for (k = 1; k < i; k++) {
-            printf("%d ", num);
+            printf("%d", num);
             num--;
         }
 
