@@ -20,7 +20,7 @@ void printArray(int arr[], int n){
     printf("\n");
 }
 
-int main(){
+ main(){
     int n;
     scanf("%d", &n);
     int* arr = (int*)malloc(n * sizeof(int)); // Dynamic array
