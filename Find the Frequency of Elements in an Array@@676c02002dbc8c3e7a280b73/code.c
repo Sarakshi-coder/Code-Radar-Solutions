@@ -25,7 +25,6 @@ int main() {
             freq[i] = count;
         }
     }
-
     printf("\n\n");
     for (int i = 0; i < n; i++) {
         if (freq[i] != 0) {
