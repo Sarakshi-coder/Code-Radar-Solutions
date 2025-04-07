@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n;
+    int N;
     scanf("%d", &N);  // Reading number of elements
 
     int arr[N];
