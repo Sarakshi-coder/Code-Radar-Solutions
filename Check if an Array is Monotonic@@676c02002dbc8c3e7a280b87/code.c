@@ -12,5 +12,4 @@ int main() {
     }
     if (inc || dec) printf("YES");
     else printf("NO");
- 
 }
