@@ -1,4 +1,3 @@
-// Your code here...
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -21,5 +20,6 @@ int main() {
         printf("%d", (arr[n/2 - 1] + arr[n/2]) / 2);
     else
         printf("%d", arr[n/2]);
+
 
 }
